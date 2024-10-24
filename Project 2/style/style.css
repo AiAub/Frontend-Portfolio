@@ -1,4 +1,17 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Karla;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+
 
 .mainContainer{
     width: 100%;
@@ -39,6 +52,10 @@
     position: relative;
     z-index: 10;
     flex-direction: row;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }  
 
 
@@ -47,7 +64,226 @@
     height: 732px;
     border-radius: 10px;
     display: flex;
+
+    margin-top: 50px;
+    margin-right: 30px;
 }
+
+
+
+
+
+
+/* register form container */
+    
+form p:first-of-type {
+    font-size: 55.23px;
+    font-weight: 700;
+    line-height: 71.79px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+
+.notice {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.91px;
+    position: relative;
+    right: 20%;
+
+    padding-top: 2%;
+    padding-left: 40%;
+}
+
+
+.input-email {
+    width: 570px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1.53px;
+    background-color: white;
+    border: 1px rgb(187, 187, 187) solid;
+    color:rgb(187, 187, 187);
+
+    padding-right: 70%;
+    padding-top: 3%;
+
+    margin-top: 4%;
+    justify-items: center;
+    
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(187, 187, 187);
+   
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.input-name {
+    
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    border:rgb(187, 187, 187) 1px solid;
+    padding-right: 28%;
+    padding-top: 3%;
+
+
+}
+
+.input-lastname {
+  
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    border:rgb(187, 187, 187) 1px solid;
+    padding-right: 28%;
+    padding-top: 3%;
+
+}
+
+.notice1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+
+    padding-right: 61%;
+    padding-top: 2%;
+
+
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2%;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    color:rgb(187, 187, 187);
+
+}
+
+.input-countrycode {
+    width: 120px;
+    height: 60px;
+    border-radius: 15.34px;
+    border: 1px rgb(187, 187, 187) solid;
+    background-color: white;
+    padding-right: 10%;
+    padding-top: 3%;
+    
+}
+
+.input-phonenumber {
+    width: 437px;
+    height: 60px;
+    border-radius: 15.34px;
+    border: 1px rgb(187, 187, 187) solid;
+    background-color: white;
+    padding-right: 50%;
+    padding-top: 3%;
+    
+}
+
+
+
+form p:last-of-type {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+
+    padding-top: 5%;
+    padding-right: 55%;
+    
+}
+
+
+/* CHECK LIST */
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 3%;
+}
+
+
+.checklist li {
+    list-style-type: none;
+    position: relative; 
+    margin: 0; 
+}
+
+.checklist li::before{
+    content: "•";
+    font-size: 100px;
+    color:  #dfdfdf;
+    position: absolute;
+    right: 120%;
+    top: -250%;
+    
+
+}
+
+
+.checklist li:nth-child(3)::before {
+    color: rgba(132, 199, 174, 1);
+        
+} 
+
+
+
+/* REGISTRATION */
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10%;
+}
+
+ button {
+    width: 391.19px;
+    height: 100px;
+    border-radius: 23.01px;
+    background-color:  rgba(132, 199, 174, 1);
+   
+    
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+
+a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.92px;
+    text-align: center;
+    padding-top: 2%;
+
+}  
 
 
 
